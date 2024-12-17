@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - AutomatCOM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+    </style>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+  
+<body>
+
+    <!-- Card de Vídeo Flutuante -->
+  <div class="video-card-container" id="videoCard">
+    <div class="video-card">
+      <button class="close-btn" onclick="closeVideoCard()">×</button>
+      <video controls autoplay>
+        <source src="assests/apresentacao.mp4" type="video/mp4">
+        Seu navegador não suporta a reprodução de vídeo.
+      </video>
+     </div>
+  </div>
+
+  <!-- Script para Fechar o Card -->
+  <script>
+    function closeVideoCard() {
+      const videoCard = document.getElementById("videoCard");
+      videoCard.style.display = "none";
+    }
+  </script>
+ 
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">AutomatCOM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Nossos Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Serviços realizados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Solicite um Orçamento</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+
+
+    <!-- Banner -->
+    <div class="banner">
+        <div class="text-white text-center py-5">
+        <h1>Bem-vindo à AutomatCOM</h1>
+         <p class="lead">Automação Inteligente para o Futuro</p>
+        <a href="#contact" class="btn btn-primary btn-lg mt-3">Solicite um Orçamento</a>
+    </div>
+    </div>
+    <!-- Sobre -->
+    <section class="py-5 alert alert-info id="sobre">
+    <div class="container">
+    <h2 class="text-center mb-4">Sobre a AutomatCOM</h2>
+        
+        <div class="card-body">
+    
+        <p class="card-text"><p class="card-text">A AutomatCOM é especializada em automação residencial, industrial e IoT (Internet das Coisas), oferecendo soluções inteligentes para tornar sua rotina mais prática e eficiente.
+        Combinamos tecnologia de ponta, projetos personalizados e excelência técnica para atender às necessidades específicas de cada cliente. Nossos serviços incluem desde o monitoramento de reservatórios em tempo real até sistemas automatizados para empresas e residências.
+        Por que escolher a AutomatCOM?
+        Soluções modernas e personalizadas.
+        Equipamentos de alta qualidade.
+        Atendimento próximo e confiável.
+        Conte conosco para transformar ideias em resultados. AutomatCOM: tecnologia a serviço da sua eficiência!</p>.
+        </div>
+    </div>
+    </section> 
+        
+    <!-- Serviços -->
+<section id="servicos" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Nossos Serviços</h2>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded-lg">
+          <img src="http://192.168.18.109/portifolio/assests/servicos/casa-intelijente.png" class="card-img-top rounded-top" alt="Automação Residencial">
+          <div class="card-body">
+            <h5 class="card-title">Automação Residencial</h5>
+            <p class="card-text">Torne sua casa inteligente com controle de luzes, temperatura, e segurança, diretamente do seu celular.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded-lg">
+          <img src="http://192.168.18.109/portifolio/assests/servicos/reservatorios-agua.jpg" class="card-img-top rounded-top" alt="Monitoramento de Reservatórios">
+          <div class="card-body">
+            <h5 class="card-title">Monitoramento de Reservatórios</h5>
+            <p class="card-text">Soluções completas para monitorar níveis de água e outros líquidos em tempo real via IoT.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card shadow-sm rounded-lg">
+          <img src="http://192.168.18.109/portifolio/assests/servicos/Industrial-Revolution-4.0.png" class="card-img-top rounded-top" alt="Automação Industrial">
+          <div class="card-body">
+            <h5 class="card-title">Automação Industrial</h5>
+            <p class="card-text">Projetos personalizados para otimizar processos industriais com CLPs e sensores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    
+
+    <!-- Portfólio -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container text-center">
+            <h1 class="mb-4">Projetos Realizados</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                   <video class="card-img-top" controls autoplay>
+                         <source src="assests/caixa_dagua.mp4" type="video/mp4">
+                          Seu navegador não suporta a reprodução de vídeo.
+                    </video>
+                        <div class="card-body">
+                            <h2 class="card-title">Monitoramento de caixa d'água</h2>
+                            <p class="card-text">Desenvolvimento e implementação de um sistema de monitoramento inteligente para caixas d'água utilizando tecnologia IoT. O projeto envolveu o uso de um ESP32 integrado a sensores de nível e pressão para medir a quantidade de água em tempo real. Os dados coletados são transmitidos para uma interface web responsiva, desenvolvida com HTML e Bootstrap, permitindo que o usuário visualize o nível da água e configure parâmetros personalizados. O sistema também inclui alertas configuráveis para situações de abastecimento e consumo, otimizando o gerenciamento de recursos hídricos.</p>
+                        </div>
+                    </div>
+                  </div>
+                
+                <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                        
+                        <video class="card-img-top" controls autoplay>
+                        <source src="assests/vídeo_dosadora.mp4" type="video/mp4">
+                            Seu navegador não suporta a reprodução de vídeo.
+                        </video>
+                        <div class="card-body">
+                            <h2 class="card-title">Dosadora produção de bactérias</h2>
+                            <p class="card-text">Desenvolvimento e automação de um sistema dosador para a produção de bactérias utilizadas em Estações de Tratamento de Efluentes (ETE) e aplicações agrícolas no combate a pragas. O projeto foi projetado para garantir precisão no controle de dosagem e condições ideais para o cultivo das bactérias, otimizando sua eficácia nos processos de tratamento de resíduos e no manejo agrícola sustentável. A solução inclui sensores para monitoramento de variáveis críticas, automação do fluxo de dosagem e integração com controladores para assegurar eficiência operacional e confiabilidade nos resultados.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                        
+                        <div class="card shadow-sm rounded-lg">
+                        <img src="http://192.168.18.109/portifolio/assests/projetos/projeto2.jpg" class="card-img-top rounded-top" alt="Painel de comando">
+                        <div class="card-body">
+                            <h2 class="card-title">Painel de comando</h2>
+                            <p class="card-text">Painel de comando projetado para acionamento seguro e eficiente de queimadores. Desenvolvido com componentes de alta qualidade, proporcionando controle preciso, proteção contra falhas e operação automatizada, garantindo eficiência energética e segurança no processo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                    
+                    <video class="card-img-top" controls autoplay>
+                         <source src="http://192.168.18.109/portifolio/assests/projetos/projeto5.mp4" type="video/mp4">
+                          Seu navegador não suporta a reprodução de vídeo.
+                    </video>
+                        <div class="card-body">
+                            <h2 class="card-title">Display lcd</h2>
+                            <p class="card-text">Monitoramento em tempo real do nível da caixa d'água com exibição precisa em um display LCD. A leitura em porcentagem proporciona controle eficiente e prático, facilitando o acompanhamento e a gestão do consumo de água.</p>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                    
+                    <div class="card shadow-sm rounded-lg">
+                        <img src="http://192.168.18.109/portifolio/assests/projetos/projeto6.jpg" class="card-img-top rounded-top" alt="Balança rodoviária">
+                        <div class="card-body">
+                            <h2 class="card-title">Balança rodoviária</h2>
+                            <p class="card-text">Desenvolvimento de um sistema de integração IoT para balança rodoviária, permitindo a comunicação entre a balança e o sistema do computador via Wi-Fi. O projeto foi projetado para otimizar o monitoramento e a gestão dos dados de pesagem, eliminando a necessidade de conexões físicas e garantindo maior eficiência e praticidade no processo.</p>
+                        </div>
+                    </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+                  <div class="card shadow-sm rounded-lg">
+                    
+                    <div class="card shadow-sm rounded-lg">
+                        <img src="http://192.168.18.109/portifolio/assests/projetos/projeto1.jpg" class="card-img-top rounded-top" alt="Instalação de motores">
+                        <div class="card-body">
+                            <h2 class="card-title">Instalação de motores</h2>
+                            <p class="card-text">Realizada a instalação de motores em um sistema de pirólise, assegurando a funcionalidade e eficiência operacional do equipamento. O trabalho incluiu a configuração elétrica e mecânica dos motores, garantindo conformidade com as especificações técnicas e os requisitos do processo industrial.</p>
+                        </div>
+                    </div>
+            </div>
+          </div>
+
+      </div>  
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="py-5 bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Solicitar Orçamento</h2>
+            <form action="processar-formulario.php" method="POST" class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 AutomatCOM - Todos os direitos reservados. | <a href="#sobre">Saiba mais</a></p>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/15998307628" target="_blank" class="whatsapp-button">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/whatsapp.png" alt="WhatsApp">
+    </a>
+
+    <!-- Scripts -->
+    <script  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+</html>

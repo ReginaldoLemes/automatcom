@@ -1,0 +1,146 @@
+/* Estilo para barra de navegação */
+        .navbar {
+            background-color: #003366;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #ffffff !important;
+        }
+        .nav-link {
+            color: #ffffff !important;
+            transition: color 0.3s;
+        }
+        .nav-link:hover {
+            color: #00bcd4 !important;
+        }
+
+        /* Estilo para o banner */
+        .banner {
+            background: url('http://192.168.18.109/portifolio/assests/baner/baner1.jpg') no-repeat center center / cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #ffffff;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Rodapé */
+        footer {
+            background: #343a40;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .card {
+         border: none; /* Remove borda padrão */
+        }
+
+        .shadow-sm {
+        box-shadow: 5px 10px 25px rgba(153, 155, 158, 158); /* Sombra leve */
+        }
+
+        .rounded-lg {
+        border-radius: 20px; /* Bordas arredondadas maiores */
+        }
+
+        .card-img-top.rounded-top {
+        border-top-left-radius: 20px; /* Bordas arredondadas da imagem */
+        border-top-right-radius: 15px;
+        }
+
+        .card-title {
+        font-weight: bold;
+        font-size: 1.25rem; /* Título destacado */
+        color: #333;
+        }
+
+        .card-text {
+        color: #666; /* Cor do texto */
+        font-size: 1rem;
+        }
+
+        /* Estilo para o botão flutuante do WhatsApp */
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+        }
+        .whatsapp-button:hover {
+            background-color: #1ebd57;
+        }
+
+        /* Fundo semi-transparente */
+.video-card-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .video-card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      max-width: 600px;
+      width: 90%;
+    }
+
+    .video-card video {
+      width: 100%;
+      height: auto;
+    }
+
+/* Botão Fechar */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: #ff5c5c;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.card video {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+.close-btn:hover {
+  background: #ff1e1e;
+}
